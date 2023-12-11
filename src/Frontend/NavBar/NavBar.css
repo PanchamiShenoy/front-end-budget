@@ -10,8 +10,8 @@
     height: 35px;
     display: flex;
     justify-content: space-between;
-
-    align-items: center; /* Vertically center items */
+    align-items: center; 
+    text-decoration: none;
   }
   
   .nav-list {
@@ -22,7 +22,8 @@
   }
   
   .nav-item {
-    margin-right: 20px; /* Adjust spacing between items */
+    margin-right: 20px; 
+    text-decoration: none;
   }
   
   .nav-link {
@@ -32,8 +33,7 @@
     border-radius: 5px;
   }
   .logout-button {
-    /* Add styles for the logout button */
-    /* For example: */
+    
     padding: 4px 8px;
     margin-right: 20px;
     border: none;

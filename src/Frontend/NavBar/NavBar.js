@@ -48,12 +48,12 @@ const loggedInLinks = [
         {isAuthenticated
           ? loggedInLinks.map((link, index) => (
               <li className="nav-item" key={index}>
-                <Link to={link.url}>{link.text}</Link>
+                <Link  className="nav-link"to={link.url}>{link.text}</Link>
               </li>
             ))
           : filteredLinks.map((link, index) => (
               <li className="nav-item" key={index}>
-                <Link to={link.url}>{link.text}</Link>
+                <Link className="nav-link" to={link.url}>{link.text}</Link>
               </li>
             ))}
       </ul>
